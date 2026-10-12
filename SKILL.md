@@ -1,6 +1,8 @@
 ---
 name: sesh-hound
 description: Use sesh-hound effectively to find, tell apart, and resume local Claude Code / Codex / Copilot sessions from an office folder — session ids, forks, "which agent is that", and what discovery is NOT (liveness, contact, control).
+scope: any agent that must locate, identify, or resume another local agent session (Claude Code, Codex, VS Code Copilot) on this machine
+trigger: the moment you are about to look up a session id, identify which agent a session belongs to, check whether a fork/copy is resumable, or `ls`/`grep` ~/.claude/projects (or the Codex/Copilot equivalents) by hand
 ---
 
 # sesh-hound — how to use it effectively
